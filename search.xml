@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>利用Hexo-Github-Next主题搭建个人网站、博客</title>
-    <url>/2021/07/12/%E5%88%A9%E7%94%A8Hexo-Github-Next%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>备忘</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2021/07/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -29,6 +17,30 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>我的第一个blog</title>
+    <url>/2021/07/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="博客模板"><a href="#博客模板" class="headerlink" title="博客模板"></a>博客模板</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我的第一个blog</span><br><span class="line">date: 2021-7-12 17:46:18  <span class="comment">#可以不填即使用默认时间</span></span><br><span class="line">categories:</span><br><span class="line">- Web</span><br><span class="line">tags:</span><br><span class="line">- 前端</span><br><span class="line">- 备忘</span><br><span class="line">---</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>备忘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>利用Hexo-Github-Next主题搭建个人网站、博客</title>
+    <url>/2021/07/12/%E5%88%A9%E7%94%A8Hexo-Github-Next%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>备忘</tag>
+      </tags>
   </entry>
   <entry>
     <title>Markdown学习笔记</title>
@@ -145,49 +157,64 @@
 <p><strong>显示效果：</strong><br><a href="https://zcb-1999.github.io/">zcB的博客</a><br>or<br><a href="https://zcb-1999.github.io/">https://zcb-1999.github.io/</a><br>此外，也可以使用变量代替</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[链接名称](链接变量)</span><br><span class="line">or</span><br><span class="line">&lt;链接名称&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[链接变量]: 链接网址</span><br><span class="line">[链接名称]: 链接网址</span><br></pre></td></tr></table></figure>
 <p><strong>显示效果：</strong><br><a href="https://zcb-1999.github.io/">zcB的博客</a><br>or<br>&lt;<a href="https://zcb-1999.github.io/">zcB的博客</a>&gt;</p>
-<h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><table>
+<h1 id="七、表格"><a href="#七、表格" class="headerlink" title="七、表格"></a>七、表格</h1><p>Markdown 制作表格使用 | 来分隔不同的单元格，用 - 来分隔表头和其他行（ - 的数量随便）。（注意表格应与上方的文字之间空一行）</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">|  表头   | 表头  |  表头  |</span><br><span class="line">|  ----  | ----  |   -   |</span><br><span class="line">| 单元格  | 单元格 | 单元格   |</span><br><span class="line">| 单元格  | 单元格 | 单元格   |</span><br></pre></td></tr></table></figure>
+
+<p><strong>显示效果：</strong></p>
+<table>
 <thead>
 <tr>
-<th>姓名</th>
-<th align="center">技能</th>
-<th align="right">排行</th>
+<th>表头</th>
+<th>表头</th>
+<th>表头</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>刘备</td>
-<td align="center">哭</td>
-<td align="right">大哥</td>
+<td>单元格</td>
+<td>单元格</td>
+<td>单元格</td>
 </tr>
 <tr>
-<td>关羽</td>
-<td align="center">打</td>
-<td align="right">二哥</td>
-</tr>
-<tr>
-<td>张飞</td>
-<td align="center">骂</td>
-<td align="right">三弟</td>
+<td>单元格</td>
+<td>单元格</td>
+<td>单元格</td>
 </tr>
 </tbody></table>
-]]></content>
+<p>对齐方式可以按如下设置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">-:   设置内容和标题栏居右对齐。</span><br><span class="line">:-   设置内容和标题栏居左对齐。</span><br><span class="line">:-:  设置内容和标题栏居中对齐。</span><br><span class="line">不设置的话默认的是左对齐</span><br><span class="line">实例：</span><br><span class="line">|  左对齐方式   |   居中对齐方式  |  右对齐方式 |不设置对齐参数|不设置对齐参数|</span><br><span class="line">|    :-----   |    :-----:    |     -:     |    -----  |     --     |</span><br><span class="line">|   单元格     |     单元格     |   单元格    |   单元格   |    单元格   |</span><br><span class="line">|   单元格     |     单元格     |   单元格    |   单元格   |    单元格   |</span><br></pre></td></tr></table></figure>
+<p><strong>显示效果：</strong></p>
+<table>
+<thead>
+<tr>
+<th align="left">左对齐方式</th>
+<th align="center">居中对齐方式</th>
+<th align="right">右对齐方式</th>
+<th>不设置对齐参数</th>
+<th>不设置对齐参数</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="center">单元格</td>
+<td align="right">单元格</td>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="center">单元格</td>
+<td align="right">单元格</td>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody></table>
+<h1 id="八、插入图片"><a href="#八、插入图片" class="headerlink" title="八、插入图片"></a>八、插入图片</h1><h1 id="九、插入公式"><a href="#九、插入公式" class="headerlink" title="九、插入公式"></a>九、插入公式</h1>]]></content>
       <categories>
         <category>Web</category>
       </categories>
       <tags>
         <tag>前端</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一个blog</title>
-    <url>/2021/07/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="博客模板"><a href="#博客模板" class="headerlink" title="博客模板"></a>博客模板</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我的第一个blog</span><br><span class="line">date: 2021-7-12 17:46:18  <span class="comment">#可以不填即使用默认时间</span></span><br><span class="line">categories:</span><br><span class="line">- Web</span><br><span class="line">tags:</span><br><span class="line">- 前端</span><br><span class="line">- 备忘</span><br><span class="line">---</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>备忘</tag>
       </tags>
   </entry>
 </search>
