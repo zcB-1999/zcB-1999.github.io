@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2021/07/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>利用Hexo-Github-Next主题搭建个人网站、博客</title>
+    <url>/2021/07/12/%E5%88%A9%E7%94%A8Hexo-Github-Next%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>备忘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一个blog</title>
+    <url>/2021/07/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h2 id="博客模板"><a href="#博客模板" class="headerlink" title="博客模板"></a>博客模板</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我的第一个blog</span><br><span class="line">date: 2021-7-12 17:46:18  <span class="comment">#可以不填即使用默认时间</span></span><br><span class="line">categories:</span><br><span class="line">- Web</span><br><span class="line">tags:</span><br><span class="line">- 前端</span><br><span class="line">- 备忘</span><br><span class="line">---</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>备忘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown学习笔记</title>
     <url>/2021/07/12/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Markdown的简单介绍"><a href="#Markdown的简单介绍" class="headerlink" title="Markdown的简单介绍"></a>Markdown的简单介绍</h1><p>Markdown是一种轻量级标记语言，允许使用容易读写的纯文本格式编写文档。编写的文档可以导出HTML、Word、图像、PDF、等多种格式的文档，文档的后缀名为.md或.markdown。</p>
@@ -102,6 +144,8 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">这是一个`<span class="built_in">printf</span>()`函数</span><br></pre></td></tr></table></figure>
 <p><strong>显示效果：</strong><br>这是一个<code>printf()</code>函数<br>对于代码区块，可以使用4 个空格或者一个制表符（Tab 键），也可以使用<code>```</code>包裹一段代码：<br><img src="/2021/07/12/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%A4%BA%E4%BE%8B3.PNG" alt="示例"><br><strong>效果：</strong></p>
 <pre><code>这是一个代码区
+这是一个代码区
+这是一个代码区
 </code></pre>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这是一个代码区</span><br></pre></td></tr></table></figure>
 
@@ -138,50 +182,8 @@
         <category>Web</category>
       </categories>
       <tags>
+        <tag>前端</tag>
         <tag>笔记</tag>
-        <tag>前端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/07/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>利用Hexo-Github-Next主题搭建个人网站、博客</title>
-    <url>/2021/07/12/%E5%88%A9%E7%94%A8Hexo-Github-Next%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>备忘</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一个blog</title>
-    <url>/2021/07/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h2 id="博客模板"><a href="#博客模板" class="headerlink" title="博客模板"></a>博客模板</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我的第一个blog</span><br><span class="line">date: 2021-7-12 17:46:18  <span class="comment">#可以不填即使用默认时间</span></span><br><span class="line">categories:</span><br><span class="line">- Web</span><br><span class="line">tags:</span><br><span class="line">- 前端</span><br><span class="line">- 备忘</span><br><span class="line">---</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>备忘</tag>
       </tags>
   </entry>
 </search>
