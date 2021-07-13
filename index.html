@@ -223,7 +223,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-07-13 12:14:42" itemprop="dateModified" datetime="2021-07-13T12:14:42+08:00">2021-07-13</time>
+                <time title="修改时间：2021-07-13 12:40:54" itemprop="dateModified" datetime="2021-07-13T12:40:54+08:00">2021-07-13</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -328,7 +328,7 @@
 </ul>
 </li>
 </ol>
-<h1 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h1><p>Markdown 区块引用是在段落开头使用 &gt; 符号（注意后面有一个空格）.要想实现区域块嵌套的话可以一次加一个 &gt; 符合：</p>
+<h1 id="四、区块"><a href="#四、区块" class="headerlink" title="四、区块"></a>四、区块</h1><p>Markdown 区块引用是在段落开头使用 &gt; 符号（注意后面有一个空格）.要想实现区域块嵌套的话可以一次加一个 &gt; 符合：</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br><span class="line">&gt; &gt; &gt; 11111111</span><br><span class="line">&gt; &gt; &gt; 11111111</span><br><span class="line">&gt; &gt; &gt; 11111111</span><br></pre></td></tr></table></figure>
 <p><strong>效果：</strong></p>
 <blockquote>
@@ -355,7 +355,7 @@
 </blockquote>
 </li>
 </ul>
-<h1 id="代码区"><a href="#代码区" class="headerlink" title="代码区"></a>代码区</h1><p>如果是段落上的一个函数或片段，则可以用反引号（`）包起来</p>
+<h1 id="五、代码区"><a href="#五、代码区" class="headerlink" title="五、代码区"></a>五、代码区</h1><p>如果是段落上的一个函数或片段，则可以用反引号（`）包起来</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是一个`<span class="built_in">printf</span>()`函数</span><br></pre></td></tr></table></figure>
 <p><strong>显示效果：</strong><br>这是一个<code>printf()</code>函数<br>对于代码区块，可以使用4 个空格或者一个制表符（Tab 键），也可以使用<code>```</code>包裹一段代码：<br><img src="/2021/07/12/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%A4%BA%E4%BE%8B3.PNG" alt="示例"><br><strong>效果：</strong></p>
 <pre><code>这是一个代码区
@@ -367,7 +367,11 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是一个代码区</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">这是一个代码区</span><br></pre></td></tr></table></figure>
-
+<h1 id="六、链接"><a href="#六、链接" class="headerlink" title="六、链接"></a>六、链接</h1><p>Mardown的链接有两种方式</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br><span class="line">or</span><br><span class="line">&lt;链接地址&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>显示效果：</strong><br><a target="_blank" rel="noopener" href="https://zcb-1999.github.io/">zcB的博客</a><br>or<br><a target="_blank" rel="noopener" href="https://zcb-1999.github.io/">https://zcb-1999.github.io/</a><br>此外，也可以使用变量代替</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[链接名称](链接变量)</span><br><span class="line">or</span><br><span class="line">&lt;链接名称&gt;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">[链接变量]: 链接网址</span><br><span class="line">[链接名称]: 链接网址</span><br></pre></td></tr></table></figure>
+<p><strong>显示效果：</strong><br><a target="_blank" rel="noopener" href="https://zcb-1999.github.io/">zcB的博客</a><br>or<br>&lt;<a target="_blank" rel="noopener" href="https://zcb-1999.github.io/">zcB的博客</a>&gt;</p>
 <h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><table>
 <thead>
 <tr>
