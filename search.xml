@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2021/07/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>linux学习</title>
+    <url>/2021/07/14/linux%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>vasp学习</title>
+    <url>/2021/07/14/vasp%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>python学习</title>
+    <url>/2021/07/14/python%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Markdown学习笔记</title>
     <url>/2021/07/12/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Markdown的简单介绍"><a href="#Markdown的简单介绍" class="headerlink" title="Markdown的简单介绍"></a>Markdown的简单介绍</h1><p>Markdown是一种轻量级标记语言，允许使用容易读写的纯文本格式编写文档。编写的文档可以导出HTML、Word、图像、PDF、等多种格式的文档，文档的后缀名为.md或.markdown。</p>
@@ -187,60 +216,14 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/07/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>vasp学习</title>
-    <url>/2021/07/14/vasp%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>linux学习</title>
-    <url>/2021/07/14/linux%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>凝聚态计算学习</title>
     <url>/2021/07/14/%E5%87%9D%E8%81%9A%E6%80%81%E8%AE%A1%E7%AE%97%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>python学习</title>
-    <url>/2021/07/14/python%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>微磁学模拟学习</title>
-    <url>/2021/07/15/%E5%BE%AE%E7%A3%81%E5%AD%A6%E6%A8%A1%E6%8B%9F%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>固体理论学习</title>
     <url>/2021/07/14/%E5%9B%BA%E4%BD%93%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>利用Hexo-Github-Next主题搭建个人网站、博客</title>
-    <url>/2021/07/12/%E5%88%A9%E7%94%A8Hexo-Github-Next%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>备忘</tag>
-      </tags>
   </entry>
   <entry>
     <title>张量分析学习</title>
@@ -250,6 +233,11 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
   <entry>
     <title>拓扑材料学习</title>
     <url>/2021/07/14/%E6%8B%93%E6%89%91%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>微磁学模拟学习</title>
+    <url>/2021/07/15/%E5%BE%AE%E7%A3%81%E5%AD%A6%E6%A8%A1%E6%8B%9F%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -270,8 +258,20 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>超导材料学习</title>
-    <url>/2021/07/15/%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <title>利用Hexo-Github-Next主题搭建个人网站、博客</title>
+    <url>/2021/07/12/%E5%88%A9%E7%94%A8Hexo-Github-Next%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>备忘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>量子场论学习</title>
+    <url>/2021/07/14/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -280,8 +280,8 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>铁电材料学习</title>
-    <url>/2021/07/15/%E9%93%81%E7%94%B5%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <title>超导材料学习</title>
+    <url>/2021/07/15/%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -290,14 +290,14 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>量子场论学习</title>
-    <url>/2021/07/14/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/</url>
+    <title>铁电材料学习</title>
+    <url>/2021/07/15/%E9%93%81%E7%94%B5%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
     <title>bash学习</title>
     <url>/2021/07/14/bash%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<p>主要参考</p>
+    <content><![CDATA[<p>主要参考：<br><a href="https://www.runoob.com/linux/linux-shell-include-file.html">菜鸟教程</a><br><a href="https://www.cnblogs.com/skywang12345/archive/2013/05/30/3106570.html#a2">Linux bash总结(一) 基础部分(适合初学者学习和非初学者参考</a><br><a href="http://c.biancheng.net/shell/">Shell脚本：Linux Shell脚本学习指南（超详细）</a></p>
 <h1 id="bash简介"><a href="#bash简介" class="headerlink" title="bash简介"></a>bash简介</h1><p>在介绍bash之前，需要先介绍它的起源——shell。shell俗称壳，它是指UNIX系统下的一个命令解析器；主要用于用户和系统的交互。UNIX系统上有很多种Shell。首个shell，即Bourne Shell，于1978年在V7(AT&amp;T的第7版)UNIX上推出。后来，又演变出C shell、bash等不同版本的shell。<br>bash，全称为Bourne-Again Shell。它是一个为GNU项目编写的Unix shell。bash脚本功能非常强大，尤其是在处理自动循环或大的任务方面可节省大量的时间。bash是许多Linux平台的内定Shell，这也是我们介绍它主要的原因。</p>
 <h1 id="一、bash建立流程"><a href="#一、bash建立流程" class="headerlink" title="一、bash建立流程"></a>一、bash建立流程</h1><ul>
 <li>新建bash文件<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">touch test.sh</span><br></pre></td></tr></table></figure></li>
