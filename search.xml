@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>LaTex的一个book模板</title>
+    <url>/2021/09/20/LaTex%E7%9A%84%E4%B8%80%E4%B8%AAbook%E6%A8%A1%E6%9D%BF/</url>
+    <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.latextemplates.com/template/legrand-orange-book">LaTex模板官网</a></p>
+<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>这里对官网的模板做了一点修改，把chapter都放在一个文件里了，这样在主目录里不会显得太乱，模板的主文件如下：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span><br><span class="line">% The Legrand Orange Book</span><br><span class="line">% LaTeX Template</span><br><span class="line">% Version 2.4 (26/09/2018)</span><br><span class="line">%</span><br><span class="line">% This template was downloaded from:</span><br><span class="line">% http://www.LaTeXTemplates.com</span><br><span class="line">%</span><br><span class="line">% Original author:</span><br><span class="line">% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:</span><br><span class="line">% Vel (vel@latextemplates.com)</span><br><span class="line">%</span><br><span class="line">% License:</span><br><span class="line">% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)</span><br><span class="line">%</span><br><span class="line">% Compiling this template:</span><br><span class="line">% This template uses biber for its bibliography and makeindex for its index.</span><br><span class="line">% When you first open the template, compile it from the command line with the </span><br><span class="line">% commands below to make sure your LaTeX distribution is configured correctly:</span><br><span class="line">%</span><br><span class="line">% 1) pdflatex main</span><br><span class="line">% 2) makeindex main.idx -s StyleInd.ist</span><br><span class="line">% 3) biber main</span><br><span class="line">% 4) pdflatex main x 2</span><br><span class="line">%</span><br><span class="line">% After this, when you wish to update the bibliography/index use the appropriate</span><br><span class="line">% command above and make sure to compile with pdflatex several times </span><br><span class="line">% afterwards to propagate your changes to the document.</span><br><span class="line">%</span><br><span class="line">% This template also uses a number of packages which may need to be</span><br><span class="line">% updated to the newest versions for the template to compile. It is strongly</span><br><span class="line">% recommended you update your LaTeX distribution if you have any</span><br><span class="line">% compilation errors.</span><br><span class="line">%</span><br><span class="line">% Important note:</span><br><span class="line">% Chapter heading images should have a 2:1 width:height ratio,</span><br><span class="line">% e.g. 920px width and 460px height.</span><br><span class="line">%</span><br><span class="line">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\documentclass[11pt,fleqn]&#123;book&#125; % Default font size and left-justified equations</span><br><span class="line"></span><br><span class="line">\input&#123;structure.tex&#125; % Insert the commands.tex file which contains the majority of the structure behind the template</span><br><span class="line"></span><br><span class="line">%\hypersetup&#123;pdftitle=&#123;Title&#125;,pdfauthor=&#123;Author&#125;&#125; % Uncomment and fill out to include PDF metadata for the author and title of the book</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	TITLE PAGE</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\begingroup</span><br><span class="line">\thispagestyle&#123;empty&#125; % Suppress headers and footers on the title page</span><br><span class="line">\begin&#123;tikzpicture&#125;[remember picture,overlay]</span><br><span class="line">\node[inner sep=0pt] (background) at (current page.center) &#123;\includegraphics[width=\paperwidth]&#123;background.pdf&#125;&#125;;</span><br><span class="line">\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]&#123;\Huge\centering\bfseries\sffamily\parbox[c][][t]&#123;\paperwidth&#125;&#123;\centering The Search for a Title\\[15pt] % Book title</span><br><span class="line">&#123;\Large A Profound Subtitle&#125;\\[20pt] % Subtitle</span><br><span class="line">&#123;\huge Dr. John Smith&#125;&#125;&#125;; % Author name</span><br><span class="line">\end&#123;tikzpicture&#125;</span><br><span class="line">\vfill</span><br><span class="line">\endgroup</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	COPYRIGHT PAGE</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\newpage</span><br><span class="line">~\vfill</span><br><span class="line">\thispagestyle&#123;empty&#125;</span><br><span class="line"></span><br><span class="line">\noindent Copyright \copyright\ 2019 John Smith\\ % Copyright notice</span><br><span class="line"></span><br><span class="line">\noindent \textsc&#123;Published by Publisher&#125;\\ % Publisher</span><br><span class="line"></span><br><span class="line">\noindent \textsc&#123;book-website.com&#125;\\ % URL</span><br><span class="line"></span><br><span class="line">\noindent Licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License (the ``License&#x27;&#x27;). You may not use this file except in compliance with the License. You may obtain a copy of the License at \url&#123;http://creativecommons.org/licenses/by-nc/3.0&#125;. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc&#123;``as is&#x27;&#x27; basis, without warranties or conditions of any kind&#125;, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information, replace this with your own license (if any)</span><br><span class="line"></span><br><span class="line">\noindent \textit&#123;First printing, March 2019&#125; % Printing/edition date</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	TABLE OF CONTENTS</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">%\usechapterimagefalse % If you don&#x27;t want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue</span><br><span class="line"></span><br><span class="line">\chapterimage&#123;chapter_head_1.pdf&#125; % Table of contents heading image</span><br><span class="line"></span><br><span class="line">\pagestyle&#123;empty&#125; % Disable headers and footers for the following pages</span><br><span class="line"></span><br><span class="line">\tableofcontents % Print the table of contents itself</span><br><span class="line"></span><br><span class="line">\cleardoublepage % Forces the first chapter to start on an odd page so it&#x27;s on the right side of the book</span><br><span class="line"></span><br><span class="line">\pagestyle&#123;fancy&#125; % Enable headers and footers again</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	PART</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\part&#123;Part One&#125;</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	CHAPTER 1</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">\input&#123;chapters/chapter1&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	CHAPTER 2</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">\input&#123;chapters/chapter2&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	PART</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\part&#123;Part Two&#125;</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	CHAPTER 3</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">\input&#123;chapters/chapter3&#125;</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	BIBLIOGRAPHY</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\chapter*&#123;Bibliography&#125;</span><br><span class="line">\addcontentsline&#123;toc&#125;&#123;chapter&#125;&#123;\textcolor&#123;ocre&#125;&#123;Bibliography&#125;&#125; % Add a Bibliography heading to the table of contents</span><br><span class="line"></span><br><span class="line">%------------------------------------------------</span><br><span class="line"></span><br><span class="line">\section*&#123;Articles&#125;</span><br><span class="line">\addcontentsline&#123;toc&#125;&#123;section&#125;&#123;Articles&#125;</span><br><span class="line">\printbibliography[heading=bibempty,type=article]</span><br><span class="line"></span><br><span class="line">%------------------------------------------------</span><br><span class="line"></span><br><span class="line">\section*&#123;Books&#125;</span><br><span class="line">\addcontentsline&#123;toc&#125;&#123;section&#125;&#123;Books&#125;</span><br><span class="line">\printbibliography[heading=bibempty,type=book]</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	INDEX</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\cleardoublepage % Make sure the index starts on an odd (right side) page</span><br><span class="line">\phantomsection</span><br><span class="line">\setlength&#123;\columnsep&#125;&#123;0.75cm&#125; % Space between the 2 columns of the index</span><br><span class="line">\addcontentsline&#123;toc&#125;&#123;chapter&#125;&#123;\textcolor&#123;ocre&#125;&#123;Index&#125;&#125; % Add an Index heading to the table of contents</span><br><span class="line">\printindex % Output the index</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><br>主要的目录文件结构如图所示：<br><img src="/2021/09/20/LaTex%E7%9A%84%E4%B8%80%E4%B8%AAbook%E6%A8%A1%E6%9D%BF/模板文件目录结构图.png" alt="图片标题"></p>
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>LaTex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown学习笔记</title>
     <url>/2021/07/12/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Markdown的简单介绍"><a href="#Markdown的简单介绍" class="headerlink" title="Markdown的简单介绍"></a>Markdown的简单介绍</h1><p>Markdown是一种轻量级标记语言，允许使用容易读写的纯文本格式编写文档。编写的文档可以导出HTML、Word、图像、PDF、等多种格式的文档，文档的后缀名为.md或.markdown。</p>
@@ -187,6 +201,35 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
       </tags>
   </entry>
   <entry>
+    <title>LaTex笔记</title>
+    <url>/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.latextemplates.com/template/legrand-orange-book">LaTex模板官网</a></p>
+<h1 id="文章结构"><a href="#文章结构" class="headerlink" title="文章结构"></a>文章结构</h1><h2 id="分级"><a href="#分级" class="headerlink" title="分级"></a>分级</h2><h3 id="点分级"><a href="#点分级" class="headerlink" title="点分级"></a>点分级</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;itemize&#125;</span><br><span class="line">    \item The first item</span><br><span class="line">    \item The second item</span><br><span class="line">    \item The third item</span><br><span class="line">    \end&#123;itemize&#125;</span><br></pre></td></tr></table></figure>
+<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/1.png" alt="1"></p>
+<h3 id="数字分级"><a href="#数字分级" class="headerlink" title="数字分级"></a>数字分级</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;enumerate&#125;</span><br><span class="line">        \item The first item</span><br><span class="line">        \item The second item</span><br><span class="line">        \item The third item</span><br><span class="line">        \end&#123;enumerate&#125;</span><br></pre></td></tr></table></figure>
+<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/2.png" alt="2"></p>
+<h1 id="公式使用"><a href="#公式使用" class="headerlink" title="公式使用"></a>公式使用</h1><h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="名人名言的引用"><a href="#名人名言的引用" class="headerlink" title="名人名言的引用"></a>名人名言的引用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;quote&#125;</span><br><span class="line">     \small</span><br><span class="line">         As usually conceived however, this arbitrariness is subject to the following  limitation: once one choose [the phase of the wave function] at one space--time point, one is then not free to make any choices at other space--time points.</span><br><span class="line">     </span><br><span class="line">     It seems that it is not consistent with the localized field concept that underlies the usual physical theories. In the present paper we wish to explore the possibility of requiring all the interactions to be invariant under independent [change of phases] at all space-time points.</span><br><span class="line">       \end&#123;quote&#125;</span><br><span class="line">       \begin&#123;flushright&#125;</span><br><span class="line">         Yang-Mills, \emph&#123;Physical Review&#125;, 1954</span><br><span class="line">       \end&#123;flushright&#125;</span><br></pre></td></tr></table></figure>
+<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/3.png" alt="2"></p>
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>LaTex</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>linux学习</title>
+    <url>/2021/07/14/linux%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>python学习</title>
+    <url>/2021/07/14/python%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/07/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -211,9 +254,21 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>python学习</title>
-    <url>/2021/07/14/python%E5%AD%A6%E4%B9%A0/</url>
+    <title></title>
+    <url>/2021/10/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>利用Hexo-Github-Next主题搭建个人网站、博客</title>
+    <url>/2021/07/12/%E5%88%A9%E7%94%A8Hexo-Github-Next%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>备忘</tag>
+      </tags>
   </entry>
   <entry>
     <title>固体理论学习</title>
@@ -231,21 +286,9 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>linux学习</title>
-    <url>/2021/07/14/linux%E5%AD%A6%E4%B9%A0/</url>
+    <title>拓扑材料学习</title>
+    <url>/2021/07/14/%E6%8B%93%E6%89%91%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>利用Hexo-Github-Next主题搭建个人网站、博客</title>
-    <url>/2021/07/12/%E5%88%A9%E7%94%A8Hexo-Github-Next%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1>]]></content>
-      <categories>
-        <category>Web</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>备忘</tag>
-      </tags>
   </entry>
   <entry>
     <title>我的第一个blog</title>
@@ -260,13 +303,13 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
       </tags>
   </entry>
   <entry>
-    <title>拓扑材料学习</title>
-    <url>/2021/07/14/%E6%8B%93%E6%89%91%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <title>超导材料学习</title>
+    <url>/2021/07/15/%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>量子场论学习</title>
-    <url>/2021/07/14/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/</url>
+    <title>磁性材料学习</title>
+    <url>/2021/07/15/%E7%A3%81%E6%80%A7%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -275,8 +318,8 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>铁电材料学习</title>
-    <url>/2021/07/15/%E9%93%81%E7%94%B5%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <title>量子场论学习</title>
+    <url>/2021/07/14/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -285,13 +328,8 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>超导材料学习</title>
-    <url>/2021/07/15/%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>磁性材料学习</title>
-    <url>/2021/07/15/%E7%A3%81%E6%80%A7%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <title>铁电材料学习</title>
+    <url>/2021/07/15/%E9%93%81%E7%94%B5%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -729,44 +767,6 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
       <tags>
         <tag>笔记</tag>
         <tag>shell</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2021/10/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>LaTex的一个book模板</title>
-    <url>/2021/09/20/LaTex%E7%9A%84%E4%B8%80%E4%B8%AAbook%E6%A8%A1%E6%9D%BF/</url>
-    <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.latextemplates.com/template/legrand-orange-book">LaTex模板官网</a></p>
-<h1 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h1><p>这里对官网的模板做了一点修改，把chapter都放在一个文件里了，这样在主目录里不会显得太乱，模板的主文件如下：<br><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span><br><span class="line">% The Legrand Orange Book</span><br><span class="line">% LaTeX Template</span><br><span class="line">% Version 2.4 (26/09/2018)</span><br><span class="line">%</span><br><span class="line">% This template was downloaded from:</span><br><span class="line">% http://www.LaTeXTemplates.com</span><br><span class="line">%</span><br><span class="line">% Original author:</span><br><span class="line">% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:</span><br><span class="line">% Vel (vel@latextemplates.com)</span><br><span class="line">%</span><br><span class="line">% License:</span><br><span class="line">% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)</span><br><span class="line">%</span><br><span class="line">% Compiling this template:</span><br><span class="line">% This template uses biber for its bibliography and makeindex for its index.</span><br><span class="line">% When you first open the template, compile it from the command line with the </span><br><span class="line">% commands below to make sure your LaTeX distribution is configured correctly:</span><br><span class="line">%</span><br><span class="line">% 1) pdflatex main</span><br><span class="line">% 2) makeindex main.idx -s StyleInd.ist</span><br><span class="line">% 3) biber main</span><br><span class="line">% 4) pdflatex main x 2</span><br><span class="line">%</span><br><span class="line">% After this, when you wish to update the bibliography/index use the appropriate</span><br><span class="line">% command above and make sure to compile with pdflatex several times </span><br><span class="line">% afterwards to propagate your changes to the document.</span><br><span class="line">%</span><br><span class="line">% This template also uses a number of packages which may need to be</span><br><span class="line">% updated to the newest versions for the template to compile. It is strongly</span><br><span class="line">% recommended you update your LaTeX distribution if you have any</span><br><span class="line">% compilation errors.</span><br><span class="line">%</span><br><span class="line">% Important note:</span><br><span class="line">% Chapter heading images should have a 2:1 width:height ratio,</span><br><span class="line">% e.g. 920px width and 460px height.</span><br><span class="line">%</span><br><span class="line">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\documentclass[11pt,fleqn]&#123;book&#125; % Default font size and left-justified equations</span><br><span class="line"></span><br><span class="line">\input&#123;structure.tex&#125; % Insert the commands.tex file which contains the majority of the structure behind the template</span><br><span class="line"></span><br><span class="line">%\hypersetup&#123;pdftitle=&#123;Title&#125;,pdfauthor=&#123;Author&#125;&#125; % Uncomment and fill out to include PDF metadata for the author and title of the book</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	TITLE PAGE</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\begingroup</span><br><span class="line">\thispagestyle&#123;empty&#125; % Suppress headers and footers on the title page</span><br><span class="line">\begin&#123;tikzpicture&#125;[remember picture,overlay]</span><br><span class="line">\node[inner sep=0pt] (background) at (current page.center) &#123;\includegraphics[width=\paperwidth]&#123;background.pdf&#125;&#125;;</span><br><span class="line">\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]&#123;\Huge\centering\bfseries\sffamily\parbox[c][][t]&#123;\paperwidth&#125;&#123;\centering The Search for a Title\\[15pt] % Book title</span><br><span class="line">&#123;\Large A Profound Subtitle&#125;\\[20pt] % Subtitle</span><br><span class="line">&#123;\huge Dr. John Smith&#125;&#125;&#125;; % Author name</span><br><span class="line">\end&#123;tikzpicture&#125;</span><br><span class="line">\vfill</span><br><span class="line">\endgroup</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	COPYRIGHT PAGE</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\newpage</span><br><span class="line">~\vfill</span><br><span class="line">\thispagestyle&#123;empty&#125;</span><br><span class="line"></span><br><span class="line">\noindent Copyright \copyright\ 2019 John Smith\\ % Copyright notice</span><br><span class="line"></span><br><span class="line">\noindent \textsc&#123;Published by Publisher&#125;\\ % Publisher</span><br><span class="line"></span><br><span class="line">\noindent \textsc&#123;book-website.com&#125;\\ % URL</span><br><span class="line"></span><br><span class="line">\noindent Licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License (the ``License&#x27;&#x27;). You may not use this file except in compliance with the License. You may obtain a copy of the License at \url&#123;http://creativecommons.org/licenses/by-nc/3.0&#125;. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc&#123;``as is&#x27;&#x27; basis, without warranties or conditions of any kind&#125;, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information, replace this with your own license (if any)</span><br><span class="line"></span><br><span class="line">\noindent \textit&#123;First printing, March 2019&#125; % Printing/edition date</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	TABLE OF CONTENTS</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">%\usechapterimagefalse % If you don&#x27;t want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue</span><br><span class="line"></span><br><span class="line">\chapterimage&#123;chapter_head_1.pdf&#125; % Table of contents heading image</span><br><span class="line"></span><br><span class="line">\pagestyle&#123;empty&#125; % Disable headers and footers for the following pages</span><br><span class="line"></span><br><span class="line">\tableofcontents % Print the table of contents itself</span><br><span class="line"></span><br><span class="line">\cleardoublepage % Forces the first chapter to start on an odd page so it&#x27;s on the right side of the book</span><br><span class="line"></span><br><span class="line">\pagestyle&#123;fancy&#125; % Enable headers and footers again</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	PART</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\part&#123;Part One&#125;</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	CHAPTER 1</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">\input&#123;chapters/chapter1&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	CHAPTER 2</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">\input&#123;chapters/chapter2&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	PART</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\part&#123;Part Two&#125;</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	CHAPTER 3</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">\input&#123;chapters/chapter3&#125;</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	BIBLIOGRAPHY</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\chapter*&#123;Bibliography&#125;</span><br><span class="line">\addcontentsline&#123;toc&#125;&#123;chapter&#125;&#123;\textcolor&#123;ocre&#125;&#123;Bibliography&#125;&#125; % Add a Bibliography heading to the table of contents</span><br><span class="line"></span><br><span class="line">%------------------------------------------------</span><br><span class="line"></span><br><span class="line">\section*&#123;Articles&#125;</span><br><span class="line">\addcontentsline&#123;toc&#125;&#123;section&#125;&#123;Articles&#125;</span><br><span class="line">\printbibliography[heading=bibempty,type=article]</span><br><span class="line"></span><br><span class="line">%------------------------------------------------</span><br><span class="line"></span><br><span class="line">\section*&#123;Books&#125;</span><br><span class="line">\addcontentsline&#123;toc&#125;&#123;section&#125;&#123;Books&#125;</span><br><span class="line">\printbibliography[heading=bibempty,type=book]</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line">%	INDEX</span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\cleardoublepage % Make sure the index starts on an odd (right side) page</span><br><span class="line">\phantomsection</span><br><span class="line">\setlength&#123;\columnsep&#125;&#123;0.75cm&#125; % Space between the 2 columns of the index</span><br><span class="line">\addcontentsline&#123;toc&#125;&#123;chapter&#125;&#123;\textcolor&#123;ocre&#125;&#123;Index&#125;&#125; % Add an Index heading to the table of contents</span><br><span class="line">\printindex % Output the index</span><br><span class="line"></span><br><span class="line">%----------------------------------------------------------------------------------------</span><br><span class="line"></span><br><span class="line">\end&#123;document&#125;</span><br></pre></td></tr></table></figure><br>主要的目录文件结构如图所示：<br><img src="/2021/09/20/LaTex%E7%9A%84%E4%B8%80%E4%B8%AAbook%E6%A8%A1%E6%9D%BF/模板文件目录结构图.png" alt="图片标题"></p>
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>LaTex</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LaTex笔记</title>
-    <url>/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.latextemplates.com/template/legrand-orange-book">LaTex模板官网</a></p>
-<h1 id="文章结构"><a href="#文章结构" class="headerlink" title="文章结构"></a>文章结构</h1><h2 id="分级"><a href="#分级" class="headerlink" title="分级"></a>分级</h2><h3 id="点分级"><a href="#点分级" class="headerlink" title="点分级"></a>点分级</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;itemize&#125;</span><br><span class="line">    \item The first item</span><br><span class="line">    \item The second item</span><br><span class="line">    \item The third item</span><br><span class="line">    \end&#123;itemize&#125;</span><br></pre></td></tr></table></figure>
-<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/1.png" alt="1"></p>
-<h3 id="数字分级"><a href="#数字分级" class="headerlink" title="数字分级"></a>数字分级</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;enumerate&#125;</span><br><span class="line">        \item The first item</span><br><span class="line">        \item The second item</span><br><span class="line">        \item The third item</span><br><span class="line">        \end&#123;enumerate&#125;</span><br></pre></td></tr></table></figure>
-<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/2.png" alt="2"></p>
-<h1 id="公式使用"><a href="#公式使用" class="headerlink" title="公式使用"></a>公式使用</h1><h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="名人名言的引用"><a href="#名人名言的引用" class="headerlink" title="名人名言的引用"></a>名人名言的引用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;quote&#125;</span><br><span class="line">     \small</span><br><span class="line">         As usually conceived however, this arbitrariness is subject to the following  limitation: once one choose [the phase of the wave function] at one space--time point, one is then not free to make any choices at other space--time points.</span><br><span class="line">     </span><br><span class="line">     It seems that it is not consistent with the localized field concept that underlies the usual physical theories. In the present paper we wish to explore the possibility of requiring all the interactions to be invariant under independent [change of phases] at all space-time points.</span><br><span class="line">       \end&#123;quote&#125;</span><br><span class="line">       \begin&#123;flushright&#125;</span><br><span class="line">         Yang-Mills, \emph&#123;Physical Review&#125;, 1954</span><br><span class="line">       \end&#123;flushright&#125;</span><br></pre></td></tr></table></figure>
-<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/3.png" alt="2"></p>
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>LaTex</tag>
       </tags>
   </entry>
 </search>
