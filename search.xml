@@ -15,6 +15,25 @@
       </tags>
   </entry>
   <entry>
+    <title>LaTex笔记</title>
+    <url>/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.latextemplates.com/template/legrand-orange-book">LaTex模板官网</a></p>
+<h1 id="文章结构"><a href="#文章结构" class="headerlink" title="文章结构"></a>文章结构</h1><h2 id="分级"><a href="#分级" class="headerlink" title="分级"></a>分级</h2><h3 id="点分级"><a href="#点分级" class="headerlink" title="点分级"></a>点分级</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;itemize&#125;</span><br><span class="line">    \item The first item</span><br><span class="line">    \item The second item</span><br><span class="line">    \item The third item</span><br><span class="line">    \end&#123;itemize&#125;</span><br></pre></td></tr></table></figure>
+<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/1.png" alt="1"></p>
+<h3 id="数字分级"><a href="#数字分级" class="headerlink" title="数字分级"></a>数字分级</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;enumerate&#125;</span><br><span class="line">        \item The first item</span><br><span class="line">        \item The second item</span><br><span class="line">        \item The third item</span><br><span class="line">        \end&#123;enumerate&#125;</span><br></pre></td></tr></table></figure>
+<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/2.png" alt="2"></p>
+<h1 id="公式使用"><a href="#公式使用" class="headerlink" title="公式使用"></a>公式使用</h1><h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="名人名言的引用"><a href="#名人名言的引用" class="headerlink" title="名人名言的引用"></a>名人名言的引用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;quote&#125;</span><br><span class="line">     \small</span><br><span class="line">         As usually conceived however, this arbitrariness is subject to the following  limitation: once one choose [the phase of the wave function] at one space--time point, one is then not free to make any choices at other space--time points.</span><br><span class="line">     </span><br><span class="line">     It seems that it is not consistent with the localized field concept that underlies the usual physical theories. In the present paper we wish to explore the possibility of requiring all the interactions to be invariant under independent [change of phases] at all space-time points.</span><br><span class="line">       \end&#123;quote&#125;</span><br><span class="line">       \begin&#123;flushright&#125;</span><br><span class="line">         Yang-Mills, \emph&#123;Physical Review&#125;, 1954</span><br><span class="line">       \end&#123;flushright&#125;</span><br></pre></td></tr></table></figure>
+<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/3.png" alt="2"></p>
+]]></content>
+      <categories>
+        <category>LaTex</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>LaTex</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Markdown学习笔记</title>
     <url>/2021/07/12/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="Markdown的简单介绍"><a href="#Markdown的简单介绍" class="headerlink" title="Markdown的简单介绍"></a>Markdown的简单介绍</h1><p>Markdown是一种轻量级标记语言，允许使用容易读写的纯文本格式编写文档。编写的文档可以导出HTML、Word、图像、PDF、等多种格式的文档，文档的后缀名为.md或.markdown。</p>
@@ -201,30 +220,6 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
       </tags>
   </entry>
   <entry>
-    <title>LaTex笔记</title>
-    <url>/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.latextemplates.com/template/legrand-orange-book">LaTex模板官网</a></p>
-<h1 id="文章结构"><a href="#文章结构" class="headerlink" title="文章结构"></a>文章结构</h1><h2 id="分级"><a href="#分级" class="headerlink" title="分级"></a>分级</h2><h3 id="点分级"><a href="#点分级" class="headerlink" title="点分级"></a>点分级</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;itemize&#125;</span><br><span class="line">    \item The first item</span><br><span class="line">    \item The second item</span><br><span class="line">    \item The third item</span><br><span class="line">    \end&#123;itemize&#125;</span><br></pre></td></tr></table></figure>
-<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/1.png" alt="1"></p>
-<h3 id="数字分级"><a href="#数字分级" class="headerlink" title="数字分级"></a>数字分级</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;enumerate&#125;</span><br><span class="line">        \item The first item</span><br><span class="line">        \item The second item</span><br><span class="line">        \item The third item</span><br><span class="line">        \end&#123;enumerate&#125;</span><br></pre></td></tr></table></figure>
-<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/2.png" alt="2"></p>
-<h1 id="公式使用"><a href="#公式使用" class="headerlink" title="公式使用"></a>公式使用</h1><h1 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h1><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="名人名言的引用"><a href="#名人名言的引用" class="headerlink" title="名人名言的引用"></a>名人名言的引用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;quote&#125;</span><br><span class="line">     \small</span><br><span class="line">         As usually conceived however, this arbitrariness is subject to the following  limitation: once one choose [the phase of the wave function] at one space--time point, one is then not free to make any choices at other space--time points.</span><br><span class="line">     </span><br><span class="line">     It seems that it is not consistent with the localized field concept that underlies the usual physical theories. In the present paper we wish to explore the possibility of requiring all the interactions to be invariant under independent [change of phases] at all space-time points.</span><br><span class="line">       \end&#123;quote&#125;</span><br><span class="line">       \begin&#123;flushright&#125;</span><br><span class="line">         Yang-Mills, \emph&#123;Physical Review&#125;, 1954</span><br><span class="line">       \end&#123;flushright&#125;</span><br></pre></td></tr></table></figure>
-<p>效果<br><img src="/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/3.png" alt="2"></p>
-]]></content>
-      <categories>
-        <category>LaTex</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>LaTex</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>linux学习</title>
-    <url>/2021/07/14/linux%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>python学习</title>
     <url>/2021/07/14/python%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
@@ -244,6 +239,11 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
 ]]></content>
   </entry>
   <entry>
+    <title>linux学习</title>
+    <url>/2021/07/14/linux%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>vasp学习</title>
     <url>/2021/07/14/vasp%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
@@ -251,11 +251,6 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
   <entry>
     <title>凝聚态计算学习</title>
     <url>/2021/07/14/%E5%87%9D%E8%81%9A%E6%80%81%E8%AE%A1%E7%AE%97%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2021/10/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -271,23 +266,23 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
       </tags>
   </entry>
   <entry>
-    <title>固体理论学习</title>
-    <url>/2021/07/14/%E5%9B%BA%E4%BD%93%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>张量分析学习</title>
     <url>/2021/07/14/%E5%BC%A0%E9%87%8F%E5%88%86%E6%9E%90%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>微磁学模拟学习</title>
-    <url>/2021/07/15/%E5%BE%AE%E7%A3%81%E5%AD%A6%E6%A8%A1%E6%8B%9F%E5%AD%A6%E4%B9%A0/</url>
+    <title>固体理论学习</title>
+    <url>/2021/07/14/%E5%9B%BA%E4%BD%93%E7%90%86%E8%AE%BA%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>拓扑材料学习</title>
-    <url>/2021/07/14/%E6%8B%93%E6%89%91%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <title></title>
+    <url>/2021/10/19/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>微磁学模拟学习</title>
+    <url>/2021/07/15/%E5%BE%AE%E7%A3%81%E5%AD%A6%E6%A8%A1%E6%8B%9F%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -303,13 +298,8 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
       </tags>
   </entry>
   <entry>
-    <title>超导材料学习</title>
-    <url>/2021/07/15/%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>磁性材料学习</title>
-    <url>/2021/07/15/%E7%A3%81%E6%80%A7%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <title>拓扑材料学习</title>
+    <url>/2021/07/14/%E6%8B%93%E6%89%91%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
@@ -318,18 +308,28 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
     <content><![CDATA[]]></content>
   </entry>
   <entry>
+    <title>磁性材料学习</title>
+    <url>/2021/07/15/%E7%A3%81%E6%80%A7%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>超导材料学习</title>
+    <url>/2021/07/15/%E8%B6%85%E5%AF%BC%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>量子场论学习</title>
     <url>/2021/07/14/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>高等量子力学学习</title>
-    <url>/2021/07/14/%E9%AB%98%E7%AD%89%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0/</url>
+    <title>铁电材料学习</title>
+    <url>/2021/07/15/%E9%93%81%E7%94%B5%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
-    <title>铁电材料学习</title>
-    <url>/2021/07/15/%E9%93%81%E7%94%B5%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/</url>
+    <title>高等量子力学学习</title>
+    <url>/2021/07/14/%E9%AB%98%E7%AD%89%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[]]></content>
   </entry>
   <entry>
