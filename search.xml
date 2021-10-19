@@ -751,7 +751,7 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
       </tags>
   </entry>
   <entry>
-    <title>LaTex的一个book模板</title>
+    <title>LaTex笔记</title>
     <url>/2021/10/19/LaTex%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.latextemplates.com/template/legrand-orange-book">LaTex模板官网</a></p>
 <h1 id="文章结构"><a href="#文章结构" class="headerlink" title="文章结构"></a>文章结构</h1><h2 id="分级"><a href="#分级" class="headerlink" title="分级"></a>分级</h2><h3 id="点分级"><a href="#点分级" class="headerlink" title="点分级"></a>点分级</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\begin&#123;itemize&#125;</span><br><span class="line">    \item The first item</span><br><span class="line">    \item The second item</span><br><span class="line">    \item The third item</span><br><span class="line">    \end&#123;itemize&#125;</span><br></pre></td></tr></table></figure>
