@@ -802,15 +802,32 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
       </tags>
   </entry>
   <entry>
-    <title>凝聚态物理学习网站推荐</title>
+    <title>Condensed matter Physics learning website resources</title>
     <url>/2022/04/01/%E5%87%9D%E8%81%9A%E6%80%81%E7%89%A9%E7%90%86%E5%AD%A6%E4%B9%A0%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/</url>
-    <content><![CDATA[<h1 id="国外学习网站推荐"><a href="#国外学习网站推荐" class="headerlink" title="国外学习网站推荐"></a>国外学习网站推荐</h1><h2 id="计算物理"><a href="#计算物理" class="headerlink" title="计算物理"></a>计算物理</h2><p><a href="http://www.fisica.uniud.it/~giannozz/">Numerical Methods in Quantum Mechanics</a><br><a href="supporting material">The supporting material of the book “Computational Method for Physics”</a></p>
-<h2 id="量子多体理论"><a href="#量子多体理论" class="headerlink" title="量子多体理论"></a>量子多体理论</h2><h2 id="量子场论"><a href="#量子场论" class="headerlink" title="量子场论"></a>量子场论</h2><h2 id="凝聚态场论"><a href="#凝聚态场论" class="headerlink" title="凝聚态场论"></a>凝聚态场论</h2>]]></content>
+    <content><![CDATA[<h1 id="Condensed-matter-Physics-learning-website-resources"><a href="#Condensed-matter-Physics-learning-website-resources" class="headerlink" title="Condensed matter Physics learning website resources"></a>Condensed matter Physics learning website resources</h1><h2 id="Computational"><a href="#Computational" class="headerlink" title="Computational"></a>Computational</h2><p><a href="http://www.fisica.uniud.it/~giannozz/">Numerical Methods in Quantum Mechanics</a><br><a href="http://people.reed.edu/~jfrankli/Book/downloads/index.html">The supporting material of the book “Computational Method for Physics”</a><br><a href="https://www.physics.rutgers.edu/grad/509/">Computational Physics 2022, Course 509 - Physics Applications of Computers</a></p>
+<h2 id="Many-Body-Physics"><a href="#Many-Body-Physics" class="headerlink" title="Many Body Physics"></a>Many Body Physics</h2><h2 id="Quantum-Field-Theory"><a href="#Quantum-Field-Theory" class="headerlink" title="Quantum Field Theory"></a>Quantum Field Theory</h2><p><a href="https://mcgreevy.physics.ucsd.edu/s14/index.html">Physics 239a, Whence QFT?, Spring 2014</a>(Homework and Solutions)</p>
+<h2 id="Condensed-Matter-Field-Theory"><a href="#Condensed-Matter-Field-Theory" class="headerlink" title="Condensed Matter Field Theory"></a>Condensed Matter Field Theory</h2><p><a href="https://www.tcm.phy.cam.ac.uk/~bds10/tp3.html">Quantum Condensed Matter Field Theory</a><br><a href="https://www.its.caltech.edu/~xcchen/courses/physics223.html">Advanced Condensed Matter Physics, Spring 2018</a></p>
+<blockquote>
+<p><a href="http://www.tcm.phy.cam.ac.uk/~bds10/dir/teaching.html">The teaching of Simons Lab</a></p>
+<blockquote>
+<p><a href="http://www.tcm.phy.cam.ac.uk/~bds10/tp3.html">Quantum Condensed Matter Field Theory</a><br><a href="http://www.tcm.phy.cam.ac.uk/~bds10/grad_lec.html">Quantum Condensed Matter Physics</a></p>
+</blockquote>
+</blockquote>
+<p><a href="http://www.spincomp.com/teaching/py4t01-condensed-matter-theory/">PY4T01: Condensed Matter Theory</a></p>
+<h2 id="Series-of-some-Professor’s-Teaching-lecture"><a href="#Series-of-some-Professor’s-Teaching-lecture" class="headerlink" title="Series of some Professor’s Teaching lecture"></a>Series of some Professor’s Teaching lecture</h2><ul>
+<li><h3 id="John-McGreevy-Website"><a href="#John-McGreevy-Website" class="headerlink" title="John McGreevy (Website)"></a>John McGreevy (<a href="https://mcgreevy.physics.ucsd.edu/">Website</a>)</h3><p>Every course of the professor John McGreevy including lecture,homework and corresponding solutions,he will update his course every year.it’s really good resources.I mainly list some courses related to condensed matter physics.<br>Course materials:</p>
+<blockquote>
+<p><a href="https://mcgreevy.physics.ucsd.edu/s21/index.html">UCSD Physics 211C (239) Spring 2021: Quantum Phases of Matter. </a><br><a href="https://mcgreevy.physics.ucsd.edu/w21/index.html">UCSD Physics 239 Winter 2021: Topology from Physics. </a><br><a href="https://mcgreevy.physics.ucsd.edu/f20/index.html">UCSD Physics 220 Fall 2020: Symmetry in Physics. </a><br><a href="https://mcgreevy.physics.ucsd.edu/w20/index.html">UCSD Physics 215B Winter 2020: Quantum Field Theory, part two. </a><br><a href="https://mcgreevy.physics.ucsd.edu/s20/index.html">UCSD Physics 212C Spring 2020: Advanced Quantum Mechanics. </a><br><a href="https://mcgreevy.physics.ucsd.edu/f19/index.html">UCSD Physics 239/139 Spring 2018, Fall 2019: Quantum information theory in many body physics.</a><br><a href="https://mcgreevy.physics.ucsd.edu/s19/index.html">UCSD Physics 215C Spring 2019: Quantum Field Theory, part three. </a><br><a href="https://mcgreevy.physics.ucsd.edu/w19/index.html">UCSD Physics 215B Winter 2019: Quantum Field Theory, part two. </a><br><a href="https://mcgreevy.physics.ucsd.edu/f18/index.html">UCSD Physics 217 Winter 2016, Fall 2018: Renormalization group.</a></p>
+</blockquote>
+</li>
+<li></li>
+</ul>
+]]></content>
       <categories>
-        <category>笔记</category>
+        <category>Notes</category>
       </categories>
       <tags>
-        <tag>凝聚态物理</tag>
+        <tag>Condensed Matter Physics</tag>
       </tags>
   </entry>
 </search>
