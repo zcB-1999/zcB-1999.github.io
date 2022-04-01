@@ -817,6 +817,7 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
 <li><a href="https://bingweb.binghamton.edu/~itsuko/CompPhysLN.html">Lecture Notes of Computational Physics</a></li>
 <li><a href="https://www.groups.ph.tum.de/cmt/teaching/archive/2020/computational-methods/">Computational Methods in Many-Body Physics (PH2264)</a></li>
 <li><a href="http://www-personal.umich.edu/~mejn/cp/chapters.html">Computational Physics</a></li>
+<li><a href="http://www.physics.drexel.edu/~steve/Courses/Comp_Phys/Physics-305/index.html">Physics 305: Computational Physics II</a>(many exercises and solutions)</li>
 </ul>
 <h2 id="Solid-State-Physics"><a href="#Solid-State-Physics" class="headerlink" title="Solid State Physics"></a>Solid State Physics</h2><ul>
 <li><a href="http://edu.itp.phys.ethz.ch/fs14/sst/">Solid State Theory – FS 2014</a></li>
@@ -825,6 +826,7 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
 <li><a href="https://sites.google.com/a/bc.edu/ying-ran/teaching/ph762">PH762 Solid State Physics II</a></li>
 <li><a href="https://bingweb.binghamton.edu/~suzuki/SolidStatePhysicsLN.html">Lecture Notes of Solid State Physics</a></li>
 <li><a href="https://ocw.mit.edu/courses/8-512-theory-of-solids-ii-spring-2009/resources/mit8_512s09_lec08/">THEORY OF SOLIDS II</a></li>
+<li><a href="https://physicscourses.colorado.edu/phys7450/phys7450_sp15/">Physics 7450: Solid State Physics 2</a>(very good!)</li>
 </ul>
 <h2 id="Many-Body-Physics"><a href="#Many-Body-Physics" class="headerlink" title="Many Body Physics"></a>Many Body Physics</h2><ul>
 <li><a href="https://tu-dresden.de/mn/physik/itp/ket/studium/lehre/mbt_ws18?set_language=en">Many-Body Theory in Condensed Matter (WS2018/19)</a>(Licture is handwriten but clearly,problems with corresponding solutions)</li>
@@ -833,11 +835,12 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
 <li><a href="http://www.phys.lsu.edu/~jarrell/Green/">Computational Many Body Methods</a></li>
 <li><a href="http://www.faculty.ucr.edu/~leonid/class/exploring.html">Exploring many-body quantum physics with Mathematica</a></li>
 <li><a href="https://fribtheoryalliance.org/TALENT/courses/course_02.php#notes">Many-body methods for nuclear physics</a></li>
-<li></li>
 </ul>
 <h2 id="Quantum-Field-Theory"><a href="#Quantum-Field-Theory" class="headerlink" title="Quantum Field Theory"></a>Quantum Field Theory</h2><ul>
 <li><a href="https://mcgreevy.physics.ucsd.edu/s14/index.html">Physics 239a, Whence QFT?, Spring 2014</a>(Homework and Solutions)</li>
 <li><a href="https://web.physics.utah.edu/~starykh/phys7640/">Quantum Field Theory I(QFT in condensed matter physics)</a>(All the lecture are handwritten)</li>
+<li><a href="http://www.damtp.cam.ac.uk/user/tong/qft.html">David Tong: Lectures on Quantum Field Theory</a></li>
+<li><a href="https://www.ias.edu/math/qft">Quantum Field Theory</a></li>
 </ul>
 <h2 id="Condensed-Matter-Field-Theory"><a href="#Condensed-Matter-Field-Theory" class="headerlink" title="Condensed Matter Field Theory"></a>Condensed Matter Field Theory</h2><ul>
 <li><a href="https://www.tcm.phy.cam.ac.uk/~bds10/tp3.html">Quantum Condensed Matter Field Theory</a></li>
@@ -869,6 +872,48 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
 </li>
 <li><h3 id="MIT-Open-Courseware-Website"><a href="#MIT-Open-Courseware-Website" class="headerlink" title="MIT Open Courseware(Website)"></a>MIT Open Courseware(<a href="https://ocw.mit.edu/">Website</a>)</h3></li>
 <li><h3 id="Free-Resource-of-Physics-Website"><a href="#Free-Resource-of-Physics-Website" class="headerlink" title="Free Resource of Physics(Website)"></a>Free Resource of Physics(<a href="http://www.freebookcentre.net/Physics/Condensed-Matter-Books.html">Website</a>)</h3></li>
+</ul>
+<h2 id="Very-Good-Books-Notes"><a href="#Very-Good-Books-Notes" class="headerlink" title="Very Good Books/Notes"></a>Very Good Books/Notes</h2><ul>
+<li><h3 id="Advanced-Quantum-Mechanics"><a href="#Advanced-Quantum-Mechanics" class="headerlink" title="Advanced Quantum Mechanics"></a>Advanced Quantum Mechanics</h3><blockquote>
+<p>Mordern Quantum Mechanics by J.J.Sakurai and Jim Napolitano<br>量子力学习题精解-钱伯初<br>Problems &amp; Solutions in Quantum Mechanics by kyriakos Tamvkis</p>
+</blockquote>
+</li>
+<li><h3 id="Statical-Physics"><a href="#Statical-Physics" class="headerlink" title="Statical Physics"></a>Statical Physics</h3><blockquote>
+<p>Statical Mechanics by Franz Schwabl(There are corresponding solutions of exercises behinds the book )<br>Statical Mechanics by Kerson Huang</p>
+</blockquote>
+</li>
+<li><h3 id="Group-Theory"><a href="#Group-Theory" class="headerlink" title="Group Theory"></a>Group Theory</h3><blockquote>
+<p>物理学中的群论-马中骐<br>Group Theory Application to the Physics of Condensed Matter by Mildred S.Dresselhaus etc.<br>Group Theory in a Nutshell for Physicists by A.zee<br>群论习题精解-马中骐</p>
+</blockquote>
+</li>
+<li><h3 id="Quantum-Field-Theory-1"><a href="#Quantum-Field-Theory-1" class="headerlink" title="Quantum Field Theory"></a>Quantum Field Theory</h3><blockquote>
+<p>An Introduction to Quantum Field Theory by Peskin<br>Quantum Field Theory for the Gifted Amateur by Tom Lancaster etc.<br>Quantum Field Theory by Mark Scrednic<br>Quantum Field Theory in a Nutshell by A.Zee<br>Quantum Field Theory and the Standard Model by Mattew D.Schwartz<br>Problem Book in Quantum Field Theory by Voja Radovanovic<br>Exercises in quantum field theory by David Atkinson, Porter Wear Johnson</p>
+</blockquote>
+</li>
+<li><h3 id="Solid-State-Theory"><a href="#Solid-State-Theory" class="headerlink" title="Solid State Theory"></a>Solid State Theory</h3><blockquote>
+<p>SolyomSolidsIII<br>Piers_book_12.2.07<br>固体理论 by 李正中<br>Advanced Solid State Physics by Philip Phillips<br>Basic Aspects of the Quantum Theory of Solids Order and Elementary Excitations by Daniel I.Khomskii<br>Electronic Structure Basic Theory and Practical Methods<br>Problems in solid state physics with solutions (Han, Fuxiang)</p>
+</blockquote>
+</li>
+<li><h3 id="Many-Body-Physics-1"><a href="#Many-Body-Physics-1" class="headerlink" title="Many Body Physics"></a>Many Body Physics</h3><blockquote>
+<p>Many-Particle Physics by Gerald D.MaHan<br>Fundamentals of Many-body Physics Principles and Methods by Wolfgang Nolting(There are solutions corresponding to the problems)<br>Introduction to Many-Body Physics by Piers Coleman<br>Many-body quantum theory in condensed matter physics by Henrik Bruus, Karsten Flensberg<br>Computational Many-Particle Physics by Ralf Schne<br>Modern Theories of Many-Particle Systems in Condensed Matter Physics by Subir Sachdev (auth.)<br>Quantum Field Theory of Many-Body Systems From the Origin of Sound to an Origin of Light and Electrons by Xiao-Gang Wen<br>Nonequilibrium Many-Body Theory of Quantum System by Gianluca Stefanucci<br>Renormalization Group and Effective Field Theory </p>
+</blockquote>
+</li>
+<li><h3 id="Condensed-Matter-Theory"><a href="#Condensed-Matter-Theory" class="headerlink" title="Condensed Matter Theory"></a>Condensed Matter Theory</h3><blockquote>
+<p>Condensed Matter Field Theory by Altland A., Simo<br>Field Theories of Condensed Matter Physics by Edu<br>Quantum Field Theory Approach to Condensed Matter<br>Quantum Field Theory and Condensed Matter An Intr<br>Modern Condensed Matter Physics by Steven M. Girv<br>Advanced Quantum Condensed Matter Physics One-Bod<br>DiGrammatic Lectures on Selecter Problems in Condensed Matter Theory by Sadovskii<br>Feynman Diagram Techniques in Condensed Matter Physics by Radi A.jishi</p>
+</blockquote>
+</li>
+<li><h3 id="Computational-Physics-1"><a href="#Computational-Physics-1" class="headerlink" title="Computational Physics"></a>Computational Physics</h3><blockquote>
+<p>lectures2013<br>Computational Physics by Jos Thijssen<br>Computational Physics Simulation of Classical and Quantum Systems by Philipp O. J. Scherer<br>Computational Physics by Konstantinos N. Anagnostopoulos(Fortran)<br>Numerical Methods in Physics with Python by Alex Gezerlis(Python)<br>Computational Problems for Physics With Guided Solutions Using Python by Rubin H. Landau, Manuel Jose Paez(Python)<br>Computational Physics Problem Solving with Python by Rubin H.Landau(Python)<br>Computational Physics - Problem Solving with Computers by Rubin H. Landau etc.(Java)<br>Computational Physics Fortran Version by Koonin, Steven E(Fortran)<br>Applied Computational Physics by Joseph F. Boudreau, Eric S. Swanson(C++)<br>Phase-Field Methods in Materials Science and Engineering by Nikolas Provatas, Ken Elder (Matlab)<br>Computational Physics - A Practical Introduction to Computational Physics and Scientific Computing(Konstantinos N. Anagnostopoulos) (C++)</p>
+</blockquote>
+</li>
+<li><h3 id="Visualization"><a href="#Visualization" class="headerlink" title="Visualization"></a>Visualization</h3><blockquote>
+<p>matplotlib-user-guide<br>Python Graphics A Reference for Creating 2D and 3D Images by B.J.Korites<br>Python数据可视化编程实战 第2版 by 伊戈尔·米洛瓦诺维奇 迪米特里·富雷斯 朱塞佩·韦蒂<br>Python 数据可视化之美 (张杰)</p>
+</blockquote>
+</li>
+<li><h3 id="Mathmatics-in-Physics"><a href="#Mathmatics-in-Physics" class="headerlink" title="Mathmatics in Physics"></a>Mathmatics in Physics</h3><blockquote>
+<p>Tensors for Physics by Siegfried Hess<br>微分几何讲义 by 陈省身<br>Mathematics for Physics Applications and Problems by V.Balakrishnan<br>Mathematical Physics A Modern Introduction to Its Foundations by Sadri Hassani<br>Mathematical Physics for Physics A Guided Tour for Gruaduate Students by Michael Stone<br>物理学中的数学方法 by 李政道<br>微分几何入门与广义相对论-2nd（上中下全册）by 梁灿彬</p>
+</blockquote>
+</li>
 </ul>
 ]]></content>
       <categories>
