@@ -996,7 +996,7 @@ G--> AA</pre><br>其他语法具体参考<a target="_blank" rel="noopener" href=
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-04-11 20:49:52" itemprop="dateModified" datetime="2022-04-11T20:49:52+08:00">2022-04-11</time>
+                <time title="修改时间：2022-04-11 21:12:47" itemprop="dateModified" datetime="2022-04-11T21:12:47+08:00">2022-04-11</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -1056,9 +1056,16 @@ AA-->BB((获得个人网站))</pre></p>
 </blockquote>
 </blockquote>
 </li>
-<li>启动Hugo服务器<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hugo server</span><br></pre></td></tr></table></figure>
-这时会得到如下信息：<br><img src="/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/hugoserver.png" alt="图片标题"></li>
-<li>生成网站信息文件/public</li>
+<li><p>主题选择<br><a target="_blank" rel="noopener" href="https://themes.gohugo.io/">Hugo官网</a>提供了很多可供选择的主题,这里我选择其中的<a target="_blank" rel="noopener" href="https://themes.gohugo.io/themes/hugo-theme-learn/">learn主题</a>，learn主题的下载方法如下：<br>在myweb目录下执行以下命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd themes/</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/matcornic/hugo-theme-learn.git</span><br></pre></td></tr></table></figure>
+<p>这样就将learn主题下载到了myweb/themes文件夹中，此时，myweb/themes文件夹中会多了一个名称为hugo-theme-learn的文件，然后将/myweb/themes/hugo-theme-learn/exampleSite/目录下的所有文件（包括config配置文件）全部复制到网站根目录myweb文件下并覆盖原来的文件，再对config.toml文件做相应的修改，主要修改里面的主题路径(themesdir)和主题名称(theme)，否则无法使用相应的主题。如下：<br><img src="/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/config.png" alt="图片标题"></p>
+</li>
+<li><p>启动Hugo服务器</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hugo server</span><br></pre></td></tr></table></figure>
+<p>这时会得到如下信息：<br><img src="/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/hugoserver.png" alt="图片标题"><br>把 <a target="_blank" rel="noopener" href="http://localhost:1313/地址复制到浏览器中打开，这样就能在本地预览网站了。">http://localhost:1313/地址复制到浏览器中打开，这样就能在本地预览网站了。</a></p>
+</li>
+<li>生成网站信息文件/public<br>完成以上操作后，网站基本算是建好了，但是建成的网站只能在本地浏览，无法上传到网上。接下来就是要将本地建好的网站部署到网上，以供所有人可以通过网址访问浏览。</li>
 </ul>
 
       
