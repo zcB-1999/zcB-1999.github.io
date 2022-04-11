@@ -20,20 +20,23 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="The subjects are mainly scientific topics, technical topics, and casual conversation.">
+  <meta name="description" content="整体思路搭建流程graph TD B((开始)) --&gt;C{安装hugo} C --&gt;D[获得服务器] C --&gt;E[获得域名] D--&gt; AA((部署网站到云端)) E--&gt; AA((部署网站到云端)) AA--&gt;BB((获得个人网站)) 具体步骤安装hugoWindows安装HugoLinux安装hugoLinux端可以用命令直接安装，这里以Centos7为例。  下载hugo1wget ht">
 <meta property="og:type" content="article">
-<meta property="og:title" content="微磁学模拟学习">
-<meta property="og:url" content="http://example.com/2021/07/15/%E5%BE%AE%E7%A3%81%E5%AD%A6%E6%A8%A1%E6%8B%9F%E5%AD%A6%E4%B9%A0/index.html">
+<meta property="og:title" content="腾讯服务器+hugo搭建个人静态网站">
+<meta property="og:url" content="http://example.com/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/index.html">
 <meta property="og:site_name" content="zcB&#39;s Blog">
-<meta property="og:description" content="The subjects are mainly scientific topics, technical topics, and casual conversation.">
+<meta property="og:description" content="整体思路搭建流程graph TD B((开始)) --&gt;C{安装hugo} C --&gt;D[获得服务器] C --&gt;E[获得域名] D--&gt; AA((部署网站到云端)) E--&gt; AA((部署网站到云端)) AA--&gt;BB((获得个人网站)) 具体步骤安装hugoWindows安装HugoLinux安装hugoLinux端可以用命令直接安装，这里以Centos7为例。  下载hugo1wget ht">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-07-14T16:01:31.000Z">
-<meta property="article:modified_time" content="2021-07-14T16:01:31.169Z">
+<meta property="og:image" content="http://example.com/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/hugoserver.png">
+<meta property="article:published_time" content="2021-07-12T10:14:23.000Z">
+<meta property="article:modified_time" content="2022-04-11T12:49:52.622Z">
 <meta property="article:author" content="Zhangcb">
-<meta property="article:tag" content="Condensed matter physics, numerical calculations, first-principles calculations, topological insulators, superconductors, magnetic materials">
+<meta property="article:tag" content="笔记">
+<meta property="article:tag" content="前端">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/hugoserver.png">
 
-<link rel="canonical" href="http://example.com/2021/07/15/%E5%BE%AE%E7%A3%81%E5%AD%A6%E6%A8%A1%E6%8B%9F%E5%AD%A6%E4%B9%A0/">
+<link rel="canonical" href="http://example.com/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/">
 
 
 <script id="page-configurations">
@@ -46,7 +49,7 @@
   };
 </script>
 
-  <title>微磁学模拟学习 | zcB's Blog</title>
+  <title>腾讯服务器+hugo搭建个人静态网站 | zcB's Blog</title>
   
 
 
@@ -195,7 +198,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/15/%E5%BE%AE%E7%A3%81%E5%AD%A6%E6%A8%A1%E6%8B%9F%E5%AD%A6%E4%B9%A0/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/author.jpeg">
@@ -208,7 +211,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          微磁学模拟学习
+          腾讯服务器+hugo搭建个人静态网站
         </h1>
 
         <div class="post-meta">
@@ -218,7 +221,23 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2021-07-15 00:01:31" itemprop="dateCreated datePublished" datetime="2021-07-15T00:01:31+08:00">2021-07-15</time>
+              <time title="创建时间：2021-07-12 18:14:23" itemprop="dateCreated datePublished" datetime="2021-07-12T18:14:23+08:00">2021-07-12</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-04-11 20:49:52" itemprop="dateModified" datetime="2022-04-11T20:49:52+08:00">2022-04-11</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/" itemprop="url" rel="index"><span itemprop="name">Web</span></a>
+                </span>
             </span>
 
           
@@ -237,8 +256,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2021/07/15/%E5%BE%AE%E7%A3%81%E5%AD%A6%E6%A8%A1%E6%8B%9F%E5%AD%A6%E4%B9%A0/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/07/15/%E5%BE%AE%E7%A3%81%E5%AD%A6%E6%A8%A1%E6%8B%9F%E5%AD%A6%E4%B9%A0/" itemprop="commentCount"></span>
+    <a title="valine" href="/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -253,7 +272,34 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        
+        <h1 id="整体思路"><a href="#整体思路" class="headerlink" title="整体思路"></a>整体思路</h1><h2 id="搭建流程"><a href="#搭建流程" class="headerlink" title="搭建流程"></a>搭建流程</h2><p><pre class="mermaid">graph TD
+B((开始)) -->C{安装hugo}
+C -->D[获得服务器]
+C -->E[获得域名]
+D--> AA((部署网站到云端))
+E--> AA((部署网站到云端))
+AA-->BB((获得个人网站))</pre></p>
+<h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><h2 id="安装hugo"><a href="#安装hugo" class="headerlink" title="安装hugo"></a>安装hugo</h2><h3 id="Windows安装Hugo"><a href="#Windows安装Hugo" class="headerlink" title="Windows安装Hugo"></a>Windows安装Hugo</h3><h3 id="Linux安装hugo"><a href="#Linux安装hugo" class="headerlink" title="Linux安装hugo"></a>Linux安装hugo</h3><p>Linux端可以用命令直接安装，这里以Centos7为例。</p>
+<ul>
+<li>下载hugo<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_0.81.0_Linux-64bit.tar.gz</span><br></pre></td></tr></table></figure></li>
+<li>解压hugo<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxf hugo_0.81.0_Linux-64bit.tar.gz</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo cp ./hugo /usr/local/bin</span><br></pre></td></tr></table></figure></li>
+<li>简单使用<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hugo version</span><br></pre></td></tr></table></figure>
+如果能显示类似于如下的版本信息则说明安装成功<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hugo v0.96.0-2fd4a7d3d6845e75f8b8ae3a2a7bd91438967bbb linux/amd64 BuildDate=2022-03-26T09:15:58Z VendorInfo=gohugoio</span><br></pre></td></tr></table></figure></li>
+<li>新建网站<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hugo new site 网站名字</span><br></pre></td></tr></table></figure>
+比如<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">huo new site myweb</span><br></pre></td></tr></table></figure>
+则会在当前目录下生成一个名为myweb的文件夹，这个文件夹就是网站的根目录。<br>myweb文件夹里还自动生成了以下子文件，其目录结构为：<blockquote>
+<p>./publi</p>
+<blockquote>
+<p>archetypes<br>config.toml #网站站点的配置文件<br>content     #网站文章所在目录<br>data<br>layouts     #网站布局<br>static      #一些静态内容<br>themes      #网站主题</p>
+</blockquote>
+</blockquote>
+</li>
+<li>启动Hugo服务器<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hugo server</span><br></pre></td></tr></table></figure>
+这时会得到如下信息：<br><img src="/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/hugoserver.png" alt="图片标题"></li>
+<li>生成网站信息文件/public</li>
+</ul>
+
     </div>
 
     
@@ -288,7 +334,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://example.com/2021/07/15/%E5%BE%AE%E7%A3%81%E5%AD%A6%E6%A8%A1%E6%8B%9F%E5%AD%A6%E4%B9%A0/" title="微磁学模拟学习">http://example.com/2021/07/15/微磁学模拟学习/</a>
+    <a href="http://example.com/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/" title="腾讯服务器+hugo搭建个人静态网站">http://example.com/2021/07/12/腾讯云服务器-hugo搭建个人网站/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -298,6 +344,10 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E7%AC%94%E8%AE%B0/" rel="tag"># 笔记</a>
+              <a href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag"># 前端</a>
+          </div>
 
         
 
@@ -305,12 +355,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/07/15/%E9%93%81%E7%94%B5%E6%9D%90%E6%96%99%E5%AD%A6%E4%B9%A0/" rel="prev" title="铁电材料学习">
-      <i class="fa fa-chevron-left"></i> 铁电材料学习
+    <a href="/2021/07/12/%E5%88%A9%E7%94%A8Hexo-Github-Next%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E3%80%81%E5%8D%9A%E5%AE%A2/" rel="prev" title="利用Hexo-Github-Next主题搭建个人网站、博客">
+      <i class="fa fa-chevron-left"></i> 利用Hexo-Github-Next主题搭建个人网站、博客
     </a></div>
       <div class="post-nav-item">
-    <a href="/2021/09/20/LaTex%E7%9A%84%E4%B8%80%E4%B8%AAbook%E6%A8%A1%E6%9D%BF/" rel="next" title="LaTex的一个book模板">
-      LaTex的一个book模板 <i class="fa fa-chevron-right"></i>
+    <a href="/2021/07/12/Markdown%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="next" title="Markdown学习笔记">
+      Markdown学习笔记 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -371,6 +421,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%95%B4%E4%BD%93%E6%80%9D%E8%B7%AF"><span class="nav-number">1.</span> <span class="nav-text">整体思路</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B"><span class="nav-number">1.1.</span> <span class="nav-text">搭建流程</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%85%B7%E4%BD%93%E6%AD%A5%E9%AA%A4"><span class="nav-number">2.</span> <span class="nav-text">具体步骤</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85hugo"><span class="nav-number">2.1.</span> <span class="nav-text">安装hugo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Windows%E5%AE%89%E8%A3%85Hugo"><span class="nav-number">2.1.1.</span> <span class="nav-text">Windows安装Hugo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Linux%E5%AE%89%E8%A3%85hugo"><span class="nav-number">2.1.2.</span> <span class="nav-text">Linux安装hugo</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -542,6 +593,59 @@ if (document.querySelectorAll('pre.mermaid').length) {
   
 
   
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 

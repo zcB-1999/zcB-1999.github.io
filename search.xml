@@ -924,4 +924,43 @@ G--> AA</pre><br>其他语法具体参考<a href="https://blog.csdn.net/zywvvd/a
         <tag>Condensed Matter Physics</tag>
       </tags>
   </entry>
+  <entry>
+    <title>腾讯服务器+hugo搭建个人静态网站</title>
+    <url>/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/</url>
+    <content><![CDATA[<h1 id="整体思路"><a href="#整体思路" class="headerlink" title="整体思路"></a>整体思路</h1><h2 id="搭建流程"><a href="#搭建流程" class="headerlink" title="搭建流程"></a>搭建流程</h2><p><pre class="mermaid">graph TD
+B((开始)) -->C{安装hugo}
+C -->D[获得服务器]
+C -->E[获得域名]
+D--> AA((部署网站到云端))
+E--> AA((部署网站到云端))
+AA-->BB((获得个人网站))</pre></p>
+<h1 id="具体步骤"><a href="#具体步骤" class="headerlink" title="具体步骤"></a>具体步骤</h1><h2 id="安装hugo"><a href="#安装hugo" class="headerlink" title="安装hugo"></a>安装hugo</h2><h3 id="Windows安装Hugo"><a href="#Windows安装Hugo" class="headerlink" title="Windows安装Hugo"></a>Windows安装Hugo</h3><h3 id="Linux安装hugo"><a href="#Linux安装hugo" class="headerlink" title="Linux安装hugo"></a>Linux安装hugo</h3><p>Linux端可以用命令直接安装，这里以Centos7为例。</p>
+<ul>
+<li>下载hugo<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_0.81.0_Linux-64bit.tar.gz</span><br></pre></td></tr></table></figure></li>
+<li>解压hugo<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">tar -zxf hugo_0.81.0_Linux-64bit.tar.gz</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo cp ./hugo /usr/local/bin</span><br></pre></td></tr></table></figure></li>
+<li>简单使用<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hugo version</span><br></pre></td></tr></table></figure>
+如果能显示类似于如下的版本信息则说明安装成功<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hugo v0.96.0-2fd4a7d3d6845e75f8b8ae3a2a7bd91438967bbb linux/amd64 BuildDate=2022-03-26T09:15:58Z VendorInfo=gohugoio</span><br></pre></td></tr></table></figure></li>
+<li>新建网站<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hugo new site 网站名字</span><br></pre></td></tr></table></figure>
+比如<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">huo new site myweb</span><br></pre></td></tr></table></figure>
+则会在当前目录下生成一个名为myweb的文件夹，这个文件夹就是网站的根目录。<br>myweb文件夹里还自动生成了以下子文件，其目录结构为：<blockquote>
+<p>./publi</p>
+<blockquote>
+<p>archetypes<br>config.toml #网站站点的配置文件<br>content     #网站文章所在目录<br>data<br>layouts     #网站布局<br>static      #一些静态内容<br>themes      #网站主题</p>
+</blockquote>
+</blockquote>
+</li>
+<li>启动Hugo服务器<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hugo server</span><br></pre></td></tr></table></figure>
+这时会得到如下信息：<br><img src="/2021/07/12/%E8%85%BE%E8%AE%AF%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8-hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/hugoserver.png" alt="图片标题"></li>
+<li>生成网站信息文件/public</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Web</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>前端</tag>
+      </tags>
+  </entry>
 </search>
